@@ -4,7 +4,7 @@ A general list structure of Fortran2003. One can define a general data type.
 
 It is similar to a one dimensional array. But one need not to give the length at the declaration.
 
-It is suitable to store large quantities of values. Also a fast method of abstracting date is contained. Here is a example of introdction of some of the major functions. More functions can be found in source code directly.
+It is suitable to store large quantities of values. Also a fast method of abstracting date is contained. Here is a example of introdction contains how to use it and some of the major functions. More functions can be found in source code directly.
 
 ## example:
 
