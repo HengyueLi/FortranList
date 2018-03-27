@@ -9,23 +9,23 @@ It is suitable to store large quantities of values.
 ## example:
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!        example start
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      !        example start
 
-! to define a data type
-      module DataModule
-              implicit none
-              type::IntegerType
-                   integer::i
-              endtype
-      endmodule
+      ! to define a data type
+            module DataModule
+                    implicit none
+                    type::IntegerType
+                         integer::i
+                    endtype
+            endmodule
 
-! define the corresponding list
-      module IntegerList
-              use DataModule,  data => IntegerType
-              !implicit none   do not add this statement. It is contained in 'ListStructure.finc'
-              include "ListStructure.finc"
-      endmodule
+      ! define the corresponding list
+            module IntegerList
+                    use DataModule,  data => IntegerType
+                    !implicit none   do not add this statement. It is contained in 'ListStructure.finc'
+                    include "ListStructure.finc"
+            endmodule
 
 
 
